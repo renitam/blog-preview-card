@@ -32,14 +32,20 @@
 
 .card {
     background-color: var(--white);
-    margin: auto;
-    width: 279px;
+    margin: auto 24px;
+    max-width: 279px;
     padding: 24px;
     border-radius: 20px;
     box-shadow: 8px 8px 0 #000000;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+@media screen and (min-width: 444px) {
+    .card {
+        max-width: 336px;
+    }
 }
 
 .card__image {
@@ -72,6 +78,17 @@
     margin: 0;
     font-size: 12px;
     font-weight: 500;
+}
+
+.card__content-link {
+    text-decoration: none;
+    transition: color 0.6s linear;
+    color: var(--gray-950);
+}
+
+.card__content-link:hover {
+    cursor: pointer;
+    color: var(--yellow);
 }
 
 .card__content-title {
