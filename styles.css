@@ -74,10 +74,22 @@
     line-height: 18px;
 }
 
+@media screen and (min-width: 444px) {
+    .card__content-tag-text {
+        font-size: 14px;
+    }
+}
+
 .card__content-date {
     margin: 0;
     font-size: 12px;
     font-weight: 500;
+}
+
+@media screen and (min-width: 444px) {
+    .card__content-date {
+        font-size: 14px;
+    }
 }
 
 .card__content-link {
@@ -97,11 +109,23 @@
     font-weight: 800;
 }
 
+@media screen and (min-width: 444px) {
+    .card__content-title {
+        font-size: 24px;
+    }
+}
+
 .card__content-text {
     margin: 0;
     color: var(--gray-500);
     font-size: 14px;
     font-weight: 500;
+}
+
+@media screen and (min-width: 444px) {
+    .card__content-text {
+        font-size: 16px;
+    }
 }
 
 .card__author {
