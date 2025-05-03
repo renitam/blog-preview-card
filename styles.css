@@ -25,6 +25,9 @@
     justify-content: center;
     align-items: center;
     font-family: 'Figtree';
+    color: var(--gray-950);
+    line-height: 150%;
+    letter-spacing: 0%;
 }
 
 .card {
@@ -60,6 +63,28 @@
 
 .card__content-tag-text {
     margin: 4px 12px; 
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 18px;
+}
+
+.card__content-date {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card__content-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card__content-text {
+    margin: 0;
+    color: var(--gray-500);
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .card__author {
@@ -75,6 +100,7 @@
 }
 
 .card__author-name {
+    margin: auto 0;
     font-family: 'Figtree';
     font-size: 14px;
     font-weight: 800;
